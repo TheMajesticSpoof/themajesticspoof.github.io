@@ -20,7 +20,7 @@ var platforms = [],
 	image = document.getElementById("sprite"),
 	player, platformCount = 10,
 	position = 0,
-	gravity = 0.2,
+	gravity = 0.1,
 	animloop,
 	flag = 0,
 	menuloop, broken = 0,
@@ -449,11 +449,11 @@ function init() {
 			hideScore();
 			player.isDead = "lol";
 
-			var tweet = document.getElementById("tweetBtn");
-			tweet.href='http://twitter.com/share?url=http://is.gd/PnFFzu&text=I just scored ' +score+ ' points in the HTML5 Doodle Jump game!&count=horiztonal&via=cssdeck&related=solitarydesigns';
+			var themajesticspoof youtube = document.getElementById("tweetBtn");
+			themajesticspoof youtube.href='https://www.youtube.com/channel/UCYQOBnovBZhA53Q6Fe4H4Cw';
 		
-			var facebook = document.getElementById("fbBtn");
-			facebook.href='http://facebook.com/sharer.php?s=100&p[url]=http://cssdeck.com/labs/html5-doodle-jump/8&p[title]=I just scored ' +score+ ' points in the HTML5 Doodle Jump game!&p[summary]=Can you beat me in this awesome recreation of Doodle Jump created in HTML5?';
+			var themajesticspoof steam = document.getElementById("fbBtn");
+			themajesticspoof steam.href='http://steamcommunity.com/profiles/76561198161460439';
 
 		}
 	}
